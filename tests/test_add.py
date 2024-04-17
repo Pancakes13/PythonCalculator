@@ -19,11 +19,11 @@ def test_add_2_positive_integers():
 
 def test_add_2_negative_integers():
     num1 = -3
-    num2 = -90
+    num2 = -10
 
     response = add(num1, num2)
 
-    assert response == -93
+    assert response == -13
 
 def test_add_2_integers():
     num1 = -53
